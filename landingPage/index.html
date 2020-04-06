@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>MSS: Web Design & Development</title>
+  <meta name="description" content="Our mission is to provide cutting-edge enterprise software solutions to organizations around the globe. We use leveraging the latest hardware and software technology to provide the best possible user experience.">
+  <meta content="" name="keywords">
+
+  <link rel="icon" href="../img/logo/logo2.png" alt="">
+  <!-- Favicons -->
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152462977-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-152462977-3');
+  </script>
+  <!-- Facebook Pixel Code -->
+<script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '842562409503535');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=842562409503535&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Facebook Pixel Code -->
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="container-fluid">
+
+      <div class="logo float-left">
+        <h1 class="font-weight-bold"><a href="../index.html"><span>MSS</span></a></h1>
+      </div>
+
+      <div class="contact-link float-right">
+        <h4><a href="#contact" class="scrollto font-weight-bold" style="font-size: 18px; font-family: Raleway, sans-serif;">Contact Us</a></h4>
+      </div>
+
+    </div>
+  </header><!-- End #header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <h1>Moore Software Solutions</h1>
+      <h2>We're working hard to improve your business</h2>
+      <a class="text-center" href="../index.html"><button class="viewSite">View Projects</button></a>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Contact Us Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact Us</h2>
+        </div>
+
+        <div class="row contact-info">
+
+          <div class="col-md-4">
+            <div class="contact-address">
+              <i class="icofont-google-map"></i>
+              <h3>Location</h3>
+              <address>Detroit, MI</address>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-phone">
+              <i class="icofont-phone"></i>
+              <h3>Phone Number</h3>
+              <p>313-293-9440</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="icofont-envelope"></i>
+              <h3>Email</h3>
+              <p>mooresoftwareus@gmail.com</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="form" style="width: 70%; margin: 0 auto;">
+          <form action="../contactHandler.php" method="POST" class="php-email-form">
+            <div class="form-group">
+              <input type="text" name="Name" class="form-control" id="name" placeholder="Name" data-rule="minlen:4" data-msg="Enter Name" required />
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" name="Email" id="email" placeholder="Email" data-rule="email" data-msg="Enter Email" required />
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+                <input type="phone" class="form-control" name="PhoneNumber" id="PhoneNumber" placeholder="Phone Number" data-rule="phone" data-msg="Enter Phone Number" required />
+                <div class="validate"></div>
+              </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="Subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" required />
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="Message" rows="5" maxlength="1000" data-rule="required" data-msg="Please write something for us" placeholder="Message" required ></textarea>
+              <div class="validate"></div>
+            </div>
+            <div class="text-center"><button type="submit">Send Message</button></div>
+          </form>
+        </div>
+
+      </div>
+  </main>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/jquery-countdown/jquery.countdown.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
